@@ -23,7 +23,7 @@
     
     [context deleteObject:courseToDelete];
     
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissModalViewControllerAnimated:YES]; // This will diss miss the view controller
 }
 
 -(void) addCourseViewControllerDidSave
