@@ -16,4 +16,6 @@
 
 @property (nonatomic, strong) NSFetchedResultsController *fetchedResultsController;
 
+@property (nonatomic, strong) NSString *nishanth;
+
 @end
